@@ -1435,7 +1435,7 @@ a:link {
   }
 }
 
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
 
   #HEADLINE41,
   #IMAGE74,
@@ -1455,7 +1455,7 @@ a:link {
     opacity: 0 !important;
     pointer-events: none !important;
   }
-}
+} */
 
 body {
   direction: ltr;
@@ -5792,7 +5792,31 @@ body {
   }
   @media only screen and (max-width: 420px) {
     /* Adjust styles for screens up to 420px width */
-    .wraper {
-      width: 100%; /* or any other suitable width */
-    }
+  .wraper{
+    width: 100%;
+    /* padding: 10px; */
   }
+    .mob-class{
+      position: fixed;
+    }
+    .mob-scale{
+      transform: scale(.92);
+    left: -15px;
+    width: 100%;
+    /* right: 13px; */
+    }
+    #SECTION2 {
+      height: 689.6px;
+    }
+    #SECTION3{
+      height: 476px;
+    }
+    #SECTION4 {
+      height: 583.619px;
+  }
+  #SECTION7 {
+    height: 589.1px;
+}
+  }
+
+  
