@@ -5790,3 +5790,9 @@ body {
       transform: translateY(0);
     }
   }
+  @media only screen and (max-width: 420px) {
+    /* Adjust styles for screens up to 420px width */
+    .wraper {
+      width: 100%; /* or any other suitable width */
+    }
+  }
