@@ -5819,5 +5819,19 @@ body {
     height: 589.1px;
 }
   }
+  @media only screen and (max-width: 390px) {
+    /* Adjust styles for screens up to 420px width */
+    .wraper{
+      width: 100%;
+      /* padding: 10px; */
+    }
+    .mob-scale{
+      transform: scale(.88);
+    left: -15px;
+    width: 100%;
+    /* right: 13px; */
+    }
 
+  }
+ 
   
