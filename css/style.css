@@ -5818,6 +5818,9 @@ body {
   #SECTION7 {
     height: 589.1px;
 }
+#SECTION11 {
+  height: 654.3px;
+}
   }
   @media only screen and (max-width: 390px) {
     /* Adjust styles for screens up to 420px width */
@@ -5831,6 +5834,18 @@ body {
     width: 100%;
     /* right: 13px; */
     }
+    #SECTION2 {
+      height: 689.6px;
+    }
+    #SECTION3{
+      height: 476px;
+    }
+    #SECTION4 {
+      height: 583.619px;
+  }
+  #SECTION7 {
+    height: 589.1px;
+}
 
   }
   @media only screen and (max-width: 375px) {
