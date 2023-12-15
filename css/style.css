@@ -5801,8 +5801,8 @@ body {
       position: fixed;
     }
     .mob-scale{
-      transform: scale(.92);
-    left: -15px;
+      transform: scale(.96);
+    left: -5px;
     width: 100%;
     /* right: 13px; */
     }
@@ -5810,10 +5810,10 @@ body {
       height: 689.6px;
     }
     #SECTION3{
-      height: 476px;
+      height: 508px;
     }
     #SECTION4 {
-      height: 583.619px;
+      height: 604.619px;
   }
   #SECTION7 {
     height: 589.1px;
@@ -5826,8 +5826,22 @@ body {
       /* padding: 10px; */
     }
     .mob-scale{
+      transform: scale(.93);
+    left: -18px;
+    width: 100%;
+    /* right: 13px; */
+    }
+
+  }
+  @media only screen and (max-width: 375px) {
+    /* Adjust styles for screens up to 420px width */
+    .wraper{
+      width: 100%;
+      /* padding: 10px; */
+    }
+    .mob-scale{
       transform: scale(.88);
-    left: -15px;
+    left: -21px;
     width: 100%;
     /* right: 13px; */
     }
